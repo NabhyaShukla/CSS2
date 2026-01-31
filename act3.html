@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        @keyframes changecolor {
+            0%{
+                background-color: yellow;
+            }
+            10%{
+                background-color: orange;
+
+            }
+
+            20%{
+                background-color: red ;
+
+
+            }
+            50%{
+                background-color: green;
+
+            }
+
+            75%{
+                background-color: aquamarine;
+            }
+
+            100%{
+                background-color: rgb(236, 184, 86);
+            }
+
+        }
+        .demo{
+            height: 750px;
+            width: 1410px;
+            background-color: green;
+            animation-name: changecolor;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="demo"></div>
+    <p>Hello!! :)</p>
+</body>
+</html>
